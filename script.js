@@ -87,7 +87,7 @@ var swiper = new Swiper('.gallery-slider', {
         clickable:true,
       },
     autoplay: {
-        delay: 7500,
+        delay: 3500,
         disableOnInteraction: false,
     },
     grabCursor: true,
@@ -100,7 +100,7 @@ var swiper = new Swiper('.gallery-slider', {
           slidesPerView: 2,
         },
         991: {
-          slidesPerView: 3,
+          slidesPerView: 2,
         },
     },
 });
