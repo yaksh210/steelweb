@@ -94,7 +94,7 @@ var swiper = new Swiper('.gallery-slider', {
     loop:true,  
     breakpoints: {
         0: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
         634: {
           slidesPerView: 2,
