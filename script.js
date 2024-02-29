@@ -109,7 +109,7 @@ var swiper = new Swiper('.gallery-slider', {
 /*for counting */
 
 let valueDisplays = document.querySelectorAll(".num")
-let interval = 4000;
+let interval = 7000;
 
 valueDisplays.forEach((valueDisplay) =>{
     let data = valueDisplay.getAttribute("data-val");
@@ -119,7 +119,7 @@ valueDisplays.forEach((valueDisplay) =>{
     let duration = Math.floor(interval / endValue);
 
     if(data.charAt(data.length - 1) != "+")
-        duration = 200
+        duration = 400
 
     let counter = setInterval(function(){
         startValue += 1;
